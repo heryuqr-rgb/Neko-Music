@@ -6,6 +6,10 @@ android {
     namespace 'com.nekomusic'
     compileSdk 35
 
+    buildFeatures {
+        buildConfig true
+    }
+
     defaultConfig {
         applicationId 'com.nekomusic'
         minSdk 23
